@@ -1,0 +1,12 @@
+name: Dice of Destruction
+
+on: workflow_dispatch
+
+jobs:
+  Doom:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: 흐흐
+        uses: actions/checkout@v3
+      - name: Foresee
+        run: python3 destiny.py
