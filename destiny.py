@@ -1,6 +1,6 @@
 import random
 
-if random.randint(1, 10) == 1:
+if random.randint(1, 10) == 0:
     print("자 시작해 볼까?")
     exit(1)
 else:
